@@ -1,11 +1,20 @@
 ---
 layout: page
-title: NLP Pipeline for Gender Bias Detection in Educational Materials
+title: Gender Bias Detection in Educational Materials
+description: An NLP pipeline for detecting gender bias in text.
 img: assets/img/proj_gender.jpg
 importance: 1
 category: research
 related_publications: true
 ---
+
+**TL;DR**: The work aims to use NLP for automatic, quantitative analysis of educational text regarding gender bias within a taxonomy framework, which informs educators about bias patterns in textbooks, lexical resources (WordNet), and assessment item design.
+
+## About
+
+The work is with Haotian Zhu, Prof. Mari Ostendorf and Prof. Fei Xia. 
+
+I designed the pipeline and conducted the experiments and statistical analysis for the lexical resource dataset.
 
 ## Abstract
 
@@ -14,3 +23,8 @@ This work aims to use NLP to facilitate automatic, quantitative analysis of educ
 
 ## Paper
 
+We have submitted the paper to ACL 2024. ([preview](https://openreview.net/pdf?id=r09z8LQtSr))
+
+## Code
+
+The code will be released soon!

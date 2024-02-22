@@ -1,12 +1,21 @@
 ---
 layout: page
-title: Complexity of Morphological Paradigms
-description: 
+title: Complexity Study of Morphological Paradigms
+description: An investigation into the complexity and learnability of morphological paradigms.
 img:
 importance: 2
 category: research
-giscus_comments: true
 ---
+
+**Keyword**: morphological complexity, learning, neural networks, typology
+
+## About
+
+This work was conducted at the [Center for Language Evolution](https://cle.ppls.ed.ac.uk/) at [The University of Edinburgh](https://www.ed.ac.uk/), along with [Dr. Tamar Johnson](https://www.illc.uva.nl/People/person/5427/Dr-Tamar-Johnson), [Prof. Kenny Smith](https://lel.ed.ac.uk/~kenny/), [Prof. Hugh Rabagliati](https://www.ed.ac.uk/profile/hugh-rabagliati) and [Prof. Jennifer Culbertson](https://www.ed.ac.uk/profile/jennifer-culbertson).
+
+I designed the paradigms and conducted all experiments and the statistical analysis in this work.
+
+The original version of this work (my Master Thesis) was awarded Highly Commended Dissertation of the school year.
 
 ## Abstract
 
@@ -16,40 +25,15 @@ Research on cross-linguistic differences in morphological paradigms reveals a wi
 
 [Link](https://jlm.ipipan.waw.pl/index.php/JLM/article/view/259)
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+```
+@article{Johnson_Gao_Smith_Rabagliati_Culbertson_2021, 
+    author={Johnson, Tamar and Gao, Kexin and Smith, Kenny and Rabagliati, Hugh and Culbertson, Jennifer}, 
+    title={Investigating the effects of i-complexity and e-complexity on the learnability of morphological systems}, 
+    url={https://jlm.ipipan.waw.pl/index.php/JLM/article/view/259}, 
+    volume={9}, 
+    DOI={10.15398/jlm.v9i1.259}, 
+    number={1}, 
+    journal={Journal of Language Modelling}, 
+    year={2021}, month={Oct.}, pages={97–150}}
 ```
 
-{% endraw %}
