@@ -1,24 +1,25 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
+title: Improving Chinese CLIP Performance on Image Classification with Prompt Engineering
+description:
+img: assets/img/clip.jpg
 importance: 4
-category: fun
+category: course
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Keywords:** Deep Learning; Neural Model Training; Prompt Engineering; CLIP Model; Image Classification
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Abstract
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+This project aims to enhance the accuracy of CN CLIP in image classification tasks through three types of prompt engineering methods. All three modified models, along with the baseline, utilize both images and texts as inputs to generate the output, which is measured by accuracy—representing the percentage of predicted labels that match the true labels.
+
+The baseline of our system is to use the pre-trained CN CLIP to do image classification. The input consists of image input (e.g., images from the benchmark dataset) and text input, which are the class labels translated into Chinese. The output is the model's prediction on the class of the input image. We evaluate the performance by calculating the classification accuracy across the whole benchmark dataset. Since our project is prompt engineering, the only thing that is being changed for the following three modified models in the prompt (e.g., the text input).
+
+Our first experiment of prompt engineering is to extend the text input from pure class labels to three other formats: a set of standard prompts in Chinese (e.g., a photo of [class]); GPT-generated descriptions based on a set of questions directed to the Large Language Model ((e.g., Describe [class] in Chinese); and the combination of both. These text input will be vectorized by the original text encoder of CN CLIP for similarity comparison.
+
+The second experiment is, similarly, to change the textual input to 'a photo of [class]' in Chinese. However, inspired by CoOp, we will transform them into context vectors and optimize these vectors through gradient-based learning before feeding them to the text encoder. We will also try removing the textual input, in which the context vectors will be randomly initialized.
+
+Finally, since text encoders re-trained with cross-lingual prompts performs better on multilingual image-text retrieval than those trained only with English input \cite{carlsson-etal-2022-cross}, we believe combining the encoding produced from both Chinese and English might improve the model performance. Hence, for our last modified model, the text input will be prompts in both English and Chinese, both of which will be fed to the text encoder. The average of the two vectors will be taken for similarity comparison with the image vector.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -34,47 +35,4 @@ To give your project a background in the portfolio page, just add the img tag to
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

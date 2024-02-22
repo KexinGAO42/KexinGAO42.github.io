@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: Machine Learning and LLM Integration for Online Mental Support
+description: 
+img: assets/img/mental.jpg
 importance: 3
-category: fun
+category: course
 ---
 
 Every project has a beautiful feature showcase page.
