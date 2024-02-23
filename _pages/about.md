@@ -22,3 +22,19 @@ Hello and welcome! I'm currently pursuing a Master's in [Computational Linguisti
 My background spans linguistics, NLP, AI/ML, user experience and product management. I'm passionate about applying NLP and ML to real-world applications for human benefits. My interests include Natural Language Processing, Machine Learning, Responsible AI, and Human-Centered Design. 
 
 Let's explore how we can make a difference together!
+
+
+##### **Tech Stack**
+
+<div class="row">
+    <div class="col-sm mt-1 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/lang.jpg" title="Data" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-1 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/ML_stack.jpg" title="Machine Learning" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-1 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/data.jpg" title="Data" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
