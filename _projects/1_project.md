@@ -5,14 +5,14 @@ description: An NLP pipeline for detecting gender bias in text.
 img: assets/img/proj_gender.jpg
 importance: 1
 category: research
-related_publications: true
+related_publications: false
 ---
 
 **TL;DR**: The work aims to use NLP for automatic, quantitative analysis of educational text regarding gender bias within a taxonomy framework, which informs educators about bias patterns in textbooks, lexical resources (WordNet), and assessment item design.
 
 ## About
 
-The work is with Haotian Zhu, Prof. Mari Ostendorf and Prof. Fei Xia. 
+The work is with [Haotian Zhu](https://linguistics.washington.edu/people/haotian-zhu), [Prof. Mari Ostendorf](https://people.ece.uw.edu/ostendorf/) and [Prof. Fei Xia](https://linguistics.washington.edu/people/fei-xia). 
 
 I designed the pipeline and conducted the experiments and statistical analysis for the lexical resource dataset.
 

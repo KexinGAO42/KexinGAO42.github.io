@@ -1,29 +1,20 @@
 ---
 layout: page
-title: LeetCode Planner
+title:  An LLM-Powered LeetCode Planner
 description: Fixie AI Hackathon challenge
 img:
-importance: 4
+importance: 1
 category: other
 ---
 
 ## Abstract
 
+•	Developed a lightweight application powered by LLM for creating LeetCode study plans using TypeScript, hosted on Fixie.ai’s platform.
+•	Integrated customized options based on users’ skill levels, programming language preferences, and desired topics.
+•	Employed prompt tuning techniques to finetune the LLM model (GPT-4) using LeetCode data, enabling the automated generation of personalized study plans.
+
 ## Code
 
+[link](https://github.com/Sam647254/LeetCode-Planner)
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-
+A web demo will be released soon!
