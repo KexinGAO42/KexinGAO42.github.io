@@ -3,7 +3,7 @@ layout: page
 title:  An LLM-Powered LeetCode Planner
 description: Fixie AI Hackathon challenge
 img:
-importance: 1
+importance: 2
 category: other
 ---
 
