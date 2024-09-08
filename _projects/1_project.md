@@ -25,6 +25,11 @@ This work aims to use NLP to facilitate automatic, quantitative analysis of educ
 
 We have submitted the paper to ACL 2024. ([preview](https://openreview.net/pdf?id=r09z8LQtSr))
 
+## News
+
+Our paper is admitted by [the 5th Workshop on Gender Bias in Natural Language Processing (GeBNLP)](https://aclanthology.org/volumes/2024.gebnlp-1/) of ACL Anthology!
+
 ## Code
 
 The code will be released soon!
+
