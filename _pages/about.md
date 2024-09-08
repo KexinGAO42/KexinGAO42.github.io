@@ -19,7 +19,7 @@ social: false # includes social icons at the bottom of the page
 
 Hey there, welcome 🤗
 
-I'm a Machine Learning Engineer at an indie game studio [Kooapps](https://www.linkedin.com/company/kooapps/mycompany/), where I tune and deploy cutting-edge Large Language Models and dive deep into ML Modeling for game data. I earned my Master's in Artificial Intelligence (NLP track) at the [University of Washington](https://www.washington.edu/) in Seattle and Master's in Linguistics at [The University of Edinburgh](https://www.ed.ac.uk/). I have also worked as an AI Product Manager at [ByteDance](https://www.bytedance.com/en/) in Beijing.
+I'm a Machine Learning Engineer at an indie game studio [Kooapps](https://www.linkedin.com/company/kooapps/), where I tune and deploy cutting-edge Large Language Models and dive deep into ML Modeling for game data. I earned my Master's in Artificial Intelligence (NLP track) at the [University of Washington](https://www.washington.edu/) in Seattle and Master's in Linguistics at [The University of Edinburgh](https://www.ed.ac.uk/). I have also worked as an AI Product Manager at [ByteDance](https://www.bytedance.com/en/) in Beijing.
 
 My background spans linguistics, NLP, AI/ML and product design. I'm passionate about designing intelligent systems and shipping AI/ML solutions that tackle real-world challenges. My drive is rooted in transforming cutting-edge technology into impactful, practical applications.
 
